@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 
 .awesome-container {
-    height: 100vh;
     width: 100%;
+    height: 665px;
+    margin-bottom: 58px;
 }
 
 .awesome-subcontainer {
