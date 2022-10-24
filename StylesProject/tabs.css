@@ -20,6 +20,10 @@
     /* border: 1px solid red; */
 }
 
+.Liberty {
+    float: right;
+}
+
 .tabs-subcontainer .tabs-subcontainer__open-tab {
     border: 1px solid #C6CBCD;
     width: 1170px;
