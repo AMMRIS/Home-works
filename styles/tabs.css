@@ -1,0 +1,84 @@
+.tabs-container {
+    padding-top: 99px;
+    height: 540px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.tabs-subcontainer {
+    font-family: "Open sans", sans-serif;
+    width: 1170px;
+    margin: auto;
+}
+
+.tabs-subcontainer__open-tab {
+    border: 1px solid #C6CBCD;
+    width: 1170px;
+    border-top: none;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs-subcontainer__open-tab .open-tab__left-side h3 {
+    font-size: 30px;
+    height: 124px;
+    line-height: 124px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+.tabs-subcontainer__open-tab .open-tab__left-side h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    margin-bottom: 27px;
+}
+
+.tabs-subcontainer__open-tab .open-tab__left-side {
+    width: 570px;
+    margin: 0 23px 0 100px;
+    vertical-align: top;
+
+}
+
+.tabs-subcontainer__open-tab .open-tab__left-side button {
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+}
+
+.tabs-subcontainer__tabs-list {
+    margin-right: -5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+}
+
+.tabs-subcontainer__tabs-list .tabs-list__tab1 {
+    width: 201px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.tabs-subcontainer__tabs-list .tabs-list__tab2,
+.tabs-list__tab3 {
+    width: 184px;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.tabs-subcontainer__tabs-list .tabs-list__empty-tab {
+    width: 600px;
+    border-bottom: 1px solid #C6CBCD;
+}
