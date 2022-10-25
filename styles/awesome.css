@@ -2,11 +2,6 @@
     width: 100%;
     height: 665px;
     margin-bottom: 58px;
-}
-
-.awesome-subcontainer {
-    width: 1170px;
-    margin: auto;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -36,8 +31,10 @@
 }
 
 .awesome-container__description {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    width: calc(370px * 3 + 30px * 2);
 }
 
 .awesome-container__description section {

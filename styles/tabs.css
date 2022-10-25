@@ -8,7 +8,7 @@
 .tabs-subcontainer {
     font-family: "Open sans", sans-serif;
     width: 1170px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .tabs-subcontainer__open-tab {
@@ -37,10 +37,7 @@
 }
 
 .tabs-subcontainer__open-tab .open-tab__left-side {
-    width: 570px;
     margin: 0 23px 0 100px;
-    vertical-align: top;
-
 }
 
 .tabs-subcontainer__open-tab .open-tab__left-side button {
@@ -54,7 +51,6 @@
 }
 
 .tabs-subcontainer__tabs-list {
-    margin-right: -5px;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 14px;
