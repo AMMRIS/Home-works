@@ -2,7 +2,12 @@
     width: 100%;
     height: 665px;
     margin-bottom: 58px;
+}
+
+.awesome-subcontainer {
     font-family: 'Raleway', sans-serif;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .awesome-container__title {
