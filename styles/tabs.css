@@ -1,11 +1,5 @@
-.tabs-container {
-    padding-top: 99px;
-    height: 540px;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
 .tabs-subcontainer {
+    padding: 99px 0 50px;
     font-family: "Open sans", sans-serif;
     width: 1170px;
     margin: 0 auto;
@@ -20,7 +14,7 @@
     justify-content: space-between;
 }
 
-.tabs-subcontainer__open-tab .open-tab__left-side h3 {
+.tabs-subcontainer__open-tab .left-side h3 {
     font-size: 30px;
     height: 124px;
     line-height: 124px;
@@ -28,7 +22,7 @@
     margin-bottom: 27px;
 }
 
-.tabs-subcontainer__open-tab .open-tab__left-side h5 {
+.tabs-subcontainer__open-tab .left-side h5 {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -36,11 +30,11 @@
     margin-bottom: 27px;
 }
 
-.tabs-subcontainer__open-tab .open-tab__left-side {
+.tabs-subcontainer__open-tab .left-side {
     margin: 0 23px 0 100px;
 }
 
-.tabs-subcontainer__open-tab .open-tab__left-side button {
+.tabs-subcontainer__open-tab .left-side button {
     width: 270px;
     height: 58px;
     background: #EC7979;
@@ -48,6 +42,19 @@
     font-weight: 600;
     border: none;
     color: #fff;
+}
+
+.tabs-subcontainer__open-tab .left-side button:focus {
+    border: 1px solid blue;
+    color: rgb(132, 0, 255);
+}
+
+.tabs-subcontainer__open-tab .left-side button:hover {
+    color: rgb(102, 255, 0);
+}
+
+.tabs-subcontainer__open-tab .left-side button:active {
+    color: green;
 }
 
 .tabs-subcontainer__tabs-list {
@@ -61,20 +68,20 @@
     display: flex;
 }
 
-.tabs-subcontainer__tabs-list .tabs-list__tab1 {
+.tabs-subcontainer__tabs-list .tab1 {
     width: 201px;
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
     border-bottom: none;
 }
 
-.tabs-subcontainer__tabs-list .tabs-list__tab2,
-.tabs-list__tab3 {
+.tabs-subcontainer__tabs-list .tab2,
+.tabs-subcontainer__tabs-list .tab3 {
     width: 184px;
     border-bottom: 1px solid #C6CBCD;
 }
 
-.tabs-subcontainer__tabs-list .tabs-list__empty-tab {
+.tabs-subcontainer__tabs-list .empty-tab {
     width: 600px;
     border-bottom: 1px solid #C6CBCD;
 }

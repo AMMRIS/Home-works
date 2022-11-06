@@ -1,0 +1,40 @@
+
+.social-media-subcontainer {
+    margin: 0 auto;
+    height: 140px;
+    background: #F8EFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1510px;
+}
+
+.social-media-subcontainer__info {
+    width: 470px;
+    margin-right: 30px;
+}
+
+.social-media-subcontainer h4 {
+    line-height: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 18px;
+}
+
+.social-media-subcontainer h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+    line-height: 21.13px;
+}
+
+.social-media-container__icons {
+    width: calc(30px * 6 + 70px * 7);
+    display: flex;
+    justify-content: space-between;
+
+}
